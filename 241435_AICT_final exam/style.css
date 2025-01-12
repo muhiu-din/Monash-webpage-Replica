@@ -5,6 +5,18 @@ body {
     line-height: 1.6;
 }
 
+@media only screen and (max-width: 1000px) {
+    .info-boxes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rankings3 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .navbar {
     position: static;
     width: 100%;
@@ -24,6 +36,28 @@ body {
 
 .home-dropdown {
     display: flex;
+}
+
+.dropdown {
+    display: none;
+}
+
+.home-dropdown:hover .dropdown {
+    display: block;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 3px;
+}
+
+.dropdown ul {
+    margin: 0%;
+    padding: 0%;
+    background-color: #0066cc;
+    margin-right: 3px;
+}
+
+.dropdown ul li {
+    display: block;
 }
 
 .home-dropdown img {
