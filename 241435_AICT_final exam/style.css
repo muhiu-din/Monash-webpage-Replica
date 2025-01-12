@@ -1,3 +1,4 @@
+/* Gave 0 margin and padding to body so on using these later we  get the desired margin and padding */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,6 +6,7 @@ body {
     line-height: 1.6;
 }
 
+/* Gave media query so these specific flex boxes align with the change of screen size making the website responsive */
 @media only screen and (max-width: 1000px) {
     .info-boxes {
         display: flex;
@@ -17,6 +19,7 @@ body {
     }
 }
 
+/* Css for navbar (topbar and mainnav) */
 .navbar {
     position: static;
     width: 100%;
@@ -152,6 +155,7 @@ body {
     color: white;
 }
 
+/* Css for hero */
 .headerbody {
     background-image: url('https://www.monash.edu/__data/assets/image/0009/3817242/Change-of-preference-light-banner-2024.jpg');
     background-size: cover;
@@ -183,6 +187,7 @@ body {
     border-radius: 5px;
 }
 
+/* css for second portion of main body */
 .content {
     max-width: 800px;
     width: 80%;
@@ -251,6 +256,7 @@ body {
     font-weight: bold;
 }
 
+/* css for third portion of main body */
 .additional-info {
     background-color: #fff;
     padding: 20px;
@@ -278,6 +284,7 @@ body {
     color: #f9f9f9;
 }
 
+/* used container3 class here because container class is already used and using it again can cause design errors */
 .container3 h1 {
     font-size: 2rem;
     margin-bottom: 10px;
@@ -318,7 +325,7 @@ body {
     background-position: center;
 }
 
-
+/* Css for footer */
 footer {
     background-color: #333;
     color: #ddd;
